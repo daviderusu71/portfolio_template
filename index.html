@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofoliul Meu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- 🔹 Meniu de navigare -->
+     <nav class="dashboard-nav">
+         <img src="assets/img/profile.jpg" alt="Profile" />
+         <div class="logo"><span>My.Dashboard</span></div>
+  <ul class="nav-links">
+    <li><a href="#overview" class="active">Overview</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#analytics">Analytics</a></li>
+    <li><a href="#settings">Settings</a></li>
+  </ul>
+  <div class="profile-menu">
+    <div class="dropdown">
+      <a href="#profile">Profile</a>
+      <a href="#logout">Logout</a>
+    </div>
+  </div>
+</nav>
+
+  <!-- 🔹 Header (meniul de sus) -->
+  <header>
+    <h1>Salut, eu sunt David</h1>
+    <p>Web Developer & Creator de Proiecte</p>
+    <a href="#contact">Contactează-mă</a>
+  </header>
+
+  <!-- 🔹 Despre mine -->
+  <section class="fade-in" id="despre">
+    <h2>Despre mine</h2>
+    <p>Sunt pasionat de web design și dezvolt site-uri moderne, rapide și responsive.</p>
+  </section>
+
+  <!-- 🔹 Portofoliu -->
+  <section class="fade-in" id="portofoliu">
+    <h2>Proiectele mele</h2>
+    <div class="galerie">
+  <div>
+    <img src="assets/img/proiect1.jpg" alt="Proiect 1" />
+    <h3>Site de prezentare</h3>
+    <p>Un site responsive pentru un client local, realizat în HTML, CSS și JS.</p>
+    <a href="https://exclusivweb.ro/site-de-prezentare/" target="_blank">Vezi live</a>
+  </div>
+
+  <div>
+    <img src="assets/img/project2.jpg" alt="Proiect 2" />
+    <h3>Blog personal</h3>
+    <p>Un blog modern cu sistem de comentarii și dark mode.</p>
+    <a href="https://www.mysocialweb.it/blog-personale/" target="_blank">Vezi live</a>
+  </div>
+
+  <div>
+    <img src="assets/img/project3.jpg" alt="Proiect 3" />
+    <h3>Mini Shop</h3>
+    <p>Magazin online simplu, cu adăugare în coș și calcul total.</p>
+    <a href="https://www.freepik.com/free-photos-vectors/mini-shop" target="_blank">Vezi live</a>
+  </div>
+</div>
+  </section>
+
+  <section id="portfolio-slider" class="slider-section">
+  <h2>Portofoliu</h2>
+  <div class="slider">
+    <button class="prev">&#10094;</button>
+    
+    <div class="slider">
+  <button class="prev">&#10094;</button>
+  
+  <div class="slides">
+    <img src="assets/img/project6.jpg" alt="Proiect 1" class="slide active" />
+    <img src="assets/img/project7.jpg" alt="Proiect 2" class="slide" />
+    <img src="assets/img/project8.jpg" alt="Proiect 3" class="slide" />
+  </div>
+
+  <div class="dots"></div>  <!-- asta e nou -->
+
+  <button class="next">&#10095;</button>
+</div>
+
+</section>
+
+
+  <section class="fade-in" id="testimoniale">
+  <h2>Ce spun clienții mei</h2>
+  <div class="slider">
+    <div class="testimonial active">
+        <img src="assets/img/author-2.png" alt="">
+      <p>"David a făcut o treabă excelentă cu site-ul nostru. Recomand cu toată încrederea!"</p>
+      <h4>- Ioana M.</h4>
+    </div>
+    <div class="testimonial">
+        <img src="assets/img/author-3.png" alt="">
+      <p>"Profesionalism și creativitate la superlativ. Site-ul arată impecabil."</p>
+      <h4>- Mihai P.</h4>
+    </div>
+    <div class="testimonial">
+        <img src="assets/img/author-1.png" alt="">
+      <p>"Am primit feedback pozitiv de la clienți după lansarea proiectului."</p>
+      <h4>- Andreea S.</h4>
+    </div>
+    <div class="testimonial">
+        <img src="assets/img/author9.jpg" alt="">
+      <p>"David a făcut o treabă excelentă cu site-ul nostru.<br>
+         Am primit feedback pozitiv de la clienți după lansarea proiectului."</p>
+      <h4> Anjela C.</h4>
+    </div>
+  </div>
+  <div class="slider-controls">
+    <button id="prev">◀</button>
+    <button id="next">▶</button>
+  </div>
+</section>
+
+<section id="faq" class="faq-section">
+  <h2>Întrebări Frecvente</h2>
+  <div class="faq-item">
+    <button class="faq-question">Cum pot comanda?</button>
+    <div class="faq-answer">
+      <p>Poți comanda prin formularul nostru online sau sunând la numărul afișat.</p>
+    </div>
+  </div>
+  <div class="faq-item">
+    <button class="faq-question">Care este timpul de livrare?</button>
+    <div class="faq-answer">
+      <p>Livrarea durează între 24-48 de ore în funcție de zonă.</p>
+    </div>
+  </div>
+  <div class="faq-item">
+    <button class="faq-question">Pot returna produsele?</button>
+    <div class="faq-answer">
+      <p>Da, poți returna în termen de 14 zile de la primire.</p>
+    </div>
+  </div>
+</section>
+
+<section id="blog" class="blog-section">
+  <h2>Blog</h2>
+  <article class="post">
+    <h3 class="post-title">Cum să îți optimizezi site-ul web</h3>
+    <p class="post-date">6 iunie 2025</p>
+    <p class="post-excerpt">Află cele mai bune metode să faci site-ul tău rapid, responsive și atractiv pentru vizitatori...</p>
+    <a href="https://creatoridepaginiweb.ro/viteza-site/" target="_blank" class="read-more">Citește mai mult</a>
+  </article>
+
+  <article class="post">
+    <h3 class="post-title">5 sfaturi pentru design modern</h3>
+    <p class="post-date">3 iunie 2025</p>
+    <p class="post-excerpt">Un design curat și funcțional face toată diferența. Iată cum să începi să creezi ceva cool...</p>
+    <a href="https://www.mobiart.md/sfaturi-utile/38-5-stiluri-de-design-interior.html" target="_blank" class="read-more">Citește mai mult</a>
+  </article>
+</section>
+
+<div class="comments-section">
+  <h4>Comentarii</h4>
+  <ul class="comments-list"></ul>
+  
+  <form class="comment-form">
+    <input type="text" name="username" placeholder="Numele tău" required />
+    <textarea name="comment" placeholder="Comentariul tău" required></textarea>
+    <button type="submit">Trimite</button>
+  </form>
+</div>
+
+
+
+  <!-- 🔹 Contact -->
+  <section class="fade-in" id="contact">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Nume" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Mesajul tău..." required></textarea>
+      <button type="submit">Trimite</button>
+    </form>
+  </section>
+    <!-- 🔹 Footer -->
+     <footer>
+  <div class="footer-container">
+    <div class="footer-section about">
+      <h3>Despre noi</h3>
+      <p>Suntem dedicați să oferim cele mai bune soluții web pentru afacerea ta.</p>
+    </div>
+
+    <div class="footer-section nav">
+      <h3>Navigare</h3>
+      <ul>
+        <li><a href="#acasa">Acasă</a></li>
+        <li><a href="#despre">Despre</a></li>
+        <li><a href="#portofoliu">Portofoliu</a></li>
+        <li><a href="#testimoniale">Testimoniale</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section social">
+      <h3>Social Media</h3>
+      <div class="social-icons">
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook"><img src="assets/icons/facebook.svg" alt="Facebook"></a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram"><img src="assets/icons/instagram.svg" alt="Instagram"></a>
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><img src="assets/icons/linkedin.svg" alt="LinkedIn"></a>
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter"><img src="assets/icons/twitter.svg" alt="Twitter"></a>
+      </div>
+    </div>
+
+    <div class="footer-section map-newsletter">
+      <h3>Unde ne găsești</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.751261698515!2d26.103982215448346!3d44.43966337910276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1fffd8a7b615f%3A0xb2a2a6a5a511d99c!2sBucurești!5e0!3m2!1sro!2sro!4v1686113808933!5m2!1sro!2sro"
+        width="280"
+        height="150"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+      <h3>Abonează-te la noutăți</h3>
+      <form id="newsletter-form">
+        <input type="email" placeholder="Email-ul tău" required />
+        <button type="submit">Abonează-te</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 David Rusu. Toate drepturile rezervate.</p>
+  </div>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
